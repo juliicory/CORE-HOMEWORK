@@ -7,18 +7,37 @@
   margin: auto;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  align-self: center;
+}
+
+td {
+  text-align: center;
+}
 .week-1 {
-    width: 20%;
-    height: auto;
-    padding: 5px;
+  width: 20%;
+  height: auto;
+  padding: 5px;
+}
+
+.caption {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 5px;
+  width: 100%;
+  padding: 15%;
 }
 
 .week-number {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
 }
+
 /* Hide the images by default */
 .mySlides {
   display: none;
