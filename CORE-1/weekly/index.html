@@ -39,13 +39,21 @@
         <tr>
             <!-- week 1 -->
             <td width="60%">
+                <iframe class="p5js-container" src="flower generator/index.html" display="block"></iframe>
                 <img class="week-1" src="../../images/IMG_0195.jpg">
             </td>
             <td>
                 <div class="caption"> 
                     <header class="week-number">week 2</header>
                     <p>
-                        week 2 caption
+                        Instead of using a pre-existing program to generate parameterized designs, I decided to experiment with coding my own procedural 'editor'. I decided to use p5js due to familiarity since I didn't want to learn a new (probably more suitable) program or language, when p5js is meant for image generation. 
+                    </p>
+                    <p>
+                        The main challenge is that p5js mainly uses raster, so I had to search through other work to find plugins and code that would work to not only generate vector images but also save them as an SVG. I also haded the added challenge of having to generate the vectors and anchor points through code instead of intuitively placing them like on Illustrator. 
+                        I ended up having to generate the individual vectors and points which could then be input into the existing bezier function. As far as I know, p5js only allows for cubic bezier curves, so I had to turn them into quadratic beziers (for the sake of simplicity) by equating the anchor points. I then had the added challenge of having to repeat these calculations for each petal at a different angle, all of which would change depending on the variable parameters I set. 
+                    </p>
+                    <p>
+                        The final result was very similar to what I had in mind! The flower pattern can be modified in size, line thickness, and petal number, and can then be exported as an SVG file which can be opened in Illustrator and edited like any other vector file. The plotter designs are honestly secondary -- I added a couple of grid options but didn't really have the time or energy to implement them as thoroughly as I would have liked. 
                     </p>
                 </div>
             </td>

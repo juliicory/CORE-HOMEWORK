@@ -38,6 +38,13 @@ td {
   text-align: center;
 }
 
+.p5js-container {
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
